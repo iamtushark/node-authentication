@@ -13,8 +13,8 @@ const syncDatabase = async () => {
 
     // sample user
     await User.create({
-      name: 'John Doe',
-      email: 'john.doe@example.com',
+      name: 'test user',
+      email: 'test1@example.com',
       password: 'hasheddd123',
       phoneNumber : "+912121221"
     });
